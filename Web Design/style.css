@@ -1,0 +1,49 @@
+a.navbar-brand{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #07a082;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+h3{
+    color: #07a082;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 10px;
+}
+
+.pic{
+    border: 3px solid #07a082
+}
+
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 40px;
+}
+
+.nav-item.dropdown.show{
+    background-color: #95f8e9;
+}
+
+.dropdown-menu{
+    margin:0;
+}
+
+@media(max-width: 767px){
+    .navbar.bg-light{
+        background-color: #07a082 !important;
+    }
+    .navbar-collapse{
+        background-color: #95f8e9;
+    }
+    .navbar{
+        padding: inherit;
+    }
+}
