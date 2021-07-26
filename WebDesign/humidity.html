@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Web Visualization Dashboard</title>
@@ -21,12 +22,12 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand text-white" href="index.html">Home</a>
-    
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-    
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
@@ -34,15 +35,15 @@
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
                         <div class="dropdown-menu-show dropdown-menu-right" aria-labelledby="navbarDropDown">
                             <a class="dropdown-item" href="maxTemp.html">Lattitude vs. Max Temp</a>
-                            <a class="dropdown-item" href="humidity.html">Lattitude vs. Max Humidity</a>
+                            <a class="dropdown-item" href="cloud.html">Lattitude vs. Cloudiness</a>
                             <a class="dropdown-item" href="windSpeed.html">Lattitude vs. Wind Speed</a>
                         </div>
                     </li>
-    
+
                     <li class="nav-item">
                         <a class="nav-link" href="data.html">Data</a>
                     </li>
-    
+
                     <li class="nav-item">
                         <a class="nav-link" href="comparisons.html">Comparison</a>
                     </li>
@@ -55,12 +56,12 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="col-md-12">
-                    <h3>Latitude vs. Cloudiness</h3>
+                    <h3>Latitude vs. Humidity</h3>
                     <hr>
-                    <img src="Resources/assets/images/Fig3.png" width="100%" alt="cloudiness">
+                    <img src="Resources/assets/images/latVhumidity.png" width="100%" alt="humidity">
                     <br>
                     <p>
-                        There seems to be no relation between latitude and cloudiness, though clouds do tend to form between -60 and 60 degrees latitude.
+                        Humidity does not appear to be related to latitude. Humidity above 50% looks to be more of a regular occurence. Humidity lower than 50% is a lot more infrequent. There appears to be a slight trend with lower humidity percentages occurring more between -40 and -20 degrees latitude and also between 20 and 40 degrees latitude. 
                     </p>
                 </div>
             </div>
@@ -71,18 +72,21 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 col-md-6">
-                            <a href="maxTemp.html"><img src="Resources/assets/images/Fig1.png" width="100%" alt="tempPic"></a>
+                            <a href="maxTemp.html"><img src="Resources/assets/images/latVtemp.png" width="100%"
+                                    alt="tempPic"></a>
                         </div>
                         <div class="col-4 col-md-6">
-                            <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="100%" alt="humidityPic"></a>
+                            <a href="cloud.html"><img src="Resources/assets/images/latVcloudiness.png" width="100%"
+                                    alt="cloudinessPic"></a>
                         </div>
                         <div class="col-4 col-md-6">
-                            <a href="windSpeed.html"><img src="Resources/assets/images/Fig4.png" width="100%" alt="windSpeedPic"></a>
+                            <a href="windSpeed.html"><img src="Resources/assets/images/latVwind.png" width="100%" alt="windSpeedPic"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</body>    
+</body>
+
 </html>
